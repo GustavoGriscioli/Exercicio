@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de vendas</title>
+</head>
+
+<body>
+    <h1>Relatório de Vendas</h1>
+    <hr>
+    <!-- (estrutura da tabela)
+        TABLE
+            thead
+                tr, th, td
+            tbody
+                tr, th, td
+            tfoot
+                tr, th, td
+
+        (significado das tags)
+        <TABLE> = Tabela
+        <thead> = Cabeçalho da tabela
+        <tbody> = Corpo da tabela
+        <tfoot> = Rodapé da tabela
+            tr (table row) = Linha da tabela
+            th (table) = Titulo da minha tabela (deixa o texto maior e em negrito)
+            td (table) = Dados da minha tabela
+            MESCLAR COLUNA = colspan
+            MESCLAR LINHA = rowspan
+            caption = titulo da tabela
+    -->
+    <table border="5" width="50%">
+        <!-- Atributo border para criar uma borda para a tabela; Atributo width para ajustar a largura da tabela. Utilizei 5 de border e 50% de width pra ficar visualmente mais bonito -->
+        <caption><strong>Relatótio - Renner</strong></caption>
+
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Preço Unitário</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Camisa</td>
+                <td>5</td>
+                <td>R$ 50,00</td>
+                <td>R$ 250</td>
+            </tr>
+            <tr>
+                <td>Calça</td>
+                <td>2</td>
+                <td>R$ 80,00</td>
+                <td>R$ 160,00</td>
+            </tr>
+            <tr>
+                <td>Tênis</td>
+                <td>10</td>
+                <td>R$ 120,00</td>
+                <td>R$ 1200,00</td>
+            </tr>
+            <tr>
+                <td>Corta Vento</td>
+                <td>2</td>
+                <td>R$ 200,00</td>
+                <td>R$ 400,00</td>
+            </tr>
+            <tr>
+                <td>Boné</td>
+                <td>5</td>
+                <td>R$ 100,00</td>
+                <td>R$ 500,00</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3"><strong>Valor Total:</strong></td> <!-- o atributo colspan mescla as linhas -->
+                <td>R$ 2510,00</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+
+    <table border="5" width="50%">
+        <!-- Atributo border para criar uma borda para a tabela; Atributo width para ajustar a largura da tabela. Utilizei 5 de border e 50% de width pra ficar visualmente mais bonito -->
+        <caption><strong></strong></caption>
+
+        <thead>
+            <tr>
+                <th>Horário</th>
+                <th>Segunda</th>
+                <th>Terça</th>
+                <th>Quarta</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>08:00 - 09:00</td>
+                <td rowspan="2">Matemática</td>
+                <td>história</td>
+                <td>Português</td>
+            </tr>
+            <tr>
+                <td>09:00 - 10:00</td>
+                <td>Geografia</td>
+                <td>Inglês</td>
+            </tr>
+            <tr>
+                <td colspan="4">Intervalo</td>
+            </tr>
+            <tr>
+                <td>10:30 - 11:30</td>
+                <td>Ciências</td>
+                <td rowspan="2">Educação Física</td>
+                <td>Artes</td>
+            </tr>
+            <tr>
+                <td>11:30 - 12:30</td>
+                <td>Português</td>
+                <td>História</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+*{
+}
+body{
+    background-color: rgb(216, 216, 216);
+}
+.nav{
+    margin:20px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+h1{
+    color: rgb(31, 31, 251);
+}
+h2{
+    color: purple;
+}
+.grupo{
+    margin:20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+footer{
+    text-align: center;
+}
