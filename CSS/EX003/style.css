@@ -1,0 +1,24 @@
+h3{
+    color: blue;
+}
+
+.grupo{
+    border-style: solid;
+    border-color: blue;
+    border-radius: 15px;
+    width: 500px;
+    height: 150px;
+    padding: 20px;
+    margin-left: 370px;
+    margin-right: 300px;
+}
+
+#curtir{
+    background-color: red;
+    color: white;
+}
+
+#comentar{
+    background-color: blue;
+    color: white;
+}
