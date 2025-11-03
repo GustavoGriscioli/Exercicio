@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://forbes.com.br/wp-content/uploads/2024/07/Tigre.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    padding: 20px;
+    
+    
+}
+
+#botao{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAA-Oqtt-xlLSFU7SOOZwUpkodcjzY62c_5w&s);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    
+
+    
+}
